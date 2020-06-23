@@ -34,7 +34,7 @@ func main() {
 	}
 
 	// Write a string to row 2, position 7
-	if err := lcdDisplay.WriteString(fmt.Sprintf("(>'.'<)", response.Pressure), 2, 7); err != nil {
+	if err := lcdDisplay.WriteString("(>'.'<)", 2, 7); err != nil {
 		log.Fatal(err)
 	}
 
