@@ -1,6 +1,8 @@
 # Go LCM1602 LCD driver
 
-This project aims to provide Go support for the LCM1602 LCD driver.
+This project aims to provide Go support for the LCM1602 LCD driver. I use it for displaying climate data in my office:
+
+![LCD panel displaying climate data](lcd.jpg)
 
 ## Usage
 
