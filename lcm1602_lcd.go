@@ -173,3 +173,11 @@ func (l *LCM1602LCD) WriteString(message string, row int, startPosition byte) er
 
 	return nil
 }
+
+// WritePaddedString writes a string to the LCD at the given row, but pads the
+// row to effectively wipe any remaining characters off the line. This is handy
+// for when you want to repeatedly display data on a line, but it could be of
+// varying length, and you don't want to blank the entire screen each time.
+func (l *LCM1602LCD) WritePaddedString(message string, row int, startPosition byte) error {
+	return l.WriteString(fmt.Sprintf("%-20v", message), row, startPosition)
+}
