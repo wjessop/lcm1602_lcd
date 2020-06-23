@@ -44,7 +44,7 @@ func main() {
 }
 ```
 
-YOu can write to all 4 of the lines, you just need to set the second paramter of the `WriteString` function to the line you want, 1 through 4.
+You can write to all 4 of the lines, you just need to set the second paramter of the `WriteString` function to the line you want, 1 through 4.
 
 ## Contributing
 
@@ -52,7 +52,7 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/wjesso
 
 ## License
 
-MIT, see LICENSE file.
+MIT, see [LICENSE](LICENSE) file.
 
 ## Prior work
 
